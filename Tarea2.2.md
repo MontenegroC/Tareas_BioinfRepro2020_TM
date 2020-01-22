@@ -1,4 +1,4 @@
-#QC – Plink#
+# QC – Plink #
 
 
 
@@ -14,7 +14,7 @@ plink --vcf batch_1.vcf --allow-extra-chr --recode --out tami
 
 **Bach_1.vcf** es el archivo madre.
 
-##Paso 1: Filtros##
+## Paso 1: Filtros ##
 
 **1.	Missingness of SNPs:**
 Excluye los SNP que faltan en una gran proporción de los individuos. En este paso, se eliminan los SNP con llamadas de bajo genotipo.
